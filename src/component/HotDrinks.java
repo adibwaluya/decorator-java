@@ -1,5 +1,7 @@
+package component;
+
 /**
- * Base abstract class for HotDrinks
+ * Base abstract class for component.HotDrinks
  */
 public abstract class HotDrinks {
 

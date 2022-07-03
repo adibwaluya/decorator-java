@@ -1,4 +1,8 @@
-public class Tea extends HotDrinks{
+package concretecomponent;
+
+import component.HotDrinks;
+
+public class Tea extends HotDrinks {
 
     double price = 0.5;
 

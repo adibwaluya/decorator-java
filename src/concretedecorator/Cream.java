@@ -1,12 +1,15 @@
-public class Sugar extends Decorator{
+package concretedecorator;
 
+import component.HotDrinks;
+import decorator.Decorator;
 
+public class Cream extends Decorator {
 
-    private double price = 0.05;
-    private String description = "Sugar";
+    private double price = 0.1;
+    private String description = "Cream";
     private HotDrinks hotDrinks;
 
-    public Sugar(HotDrinks hotDrinks) {
+    public Cream(HotDrinks hotDrinks) {
         this.hotDrinks = hotDrinks;
     }
 
